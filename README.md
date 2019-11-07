@@ -1,10 +1,10 @@
 # game-off-nov-2019
 
-Best Practices:
+Unity best practices:
 
 - class names should be UpperCamelCase
 - variable names and function parameters should be lowerCamelCase
-- Scripts, Sprites, Audio files, Animations, Scenes and all other Assets should be UpperCamelCase
+- Scripts, Sprites, Audio files, Animations, Scenes, Object Tags and all other Assets should be UpperCamelCase
 - no unneccessary bloat in the Update() method! This method is called every frame and can kill performance
 - use PlayerPrefs to store values between game sessions
 - important settings for GitHub:
@@ -18,4 +18,6 @@ editor recommendation: VS Code(loads faster than visual studio), with following 
 - Unity Code Snippets Improved
 - Unity Tools
 - Visual Studio IntelliCode
+- choose vs code as default editor in unity (edit->preferences->external tools->external script editor->browse to
+  AppData\Local\Programs\Microsoft VS Code\Code.exe
 - (Darcula Theme if you don´t want to kill your eyes)
